@@ -1,0 +1,61 @@
+.night-city__container {
+    padding: 70px 0;
+}
+
+.night-city__title {
+    font-family: "Archangelsk";
+    font-size: 62px;
+    font-weight: 400;
+    color: var(--black);
+    margin-bottom: 25px;
+}
+
+.night-city__text {
+    font-family: "Roboto";
+    font-size: 18px;
+    color: var(--gray);
+    width: 952px;
+    margin-bottom: 70px;
+    line-height: 34px;
+}
+
+.night-city__text span {
+    color: var(--aqua);
+} 
+
+.night-city__images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+.night-city__first-image-block {
+    display: flex;
+    width: 460px;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.night-city__image1 {
+    width: 460px;
+    height: auto;
+}
+
+.night-city__image1 img {
+    width: 100%;
+    height: auto;
+}
+
+.night-city__second-image-block {
+    width: 788px;
+    height: auto;
+}
+
+.night-city__image2 {
+    width: 788px;
+    height: auto;
+}

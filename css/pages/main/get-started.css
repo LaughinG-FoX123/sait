@@ -1,5 +1,5 @@
 .get-started {
-    background-image: url("../../assets/img/sections/get-start/11.jpg");
+    background-image: url("../../assets/img/main_sections/get-start/11.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -14,7 +14,7 @@
 
 .get-started__content {
     position: absolute;
-    background-image: url("../../assets/img/sections/get-start/Frame.png");
+    background-image: url("../../assets/img/main_sections/get-start/Frame.png");
     background-repeat: no-repeat;
     padding: 70px;
     width: 624px;
