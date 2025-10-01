@@ -1,0 +1,11 @@
+@font-face {
+    font-family: Archangelsk;
+    font-weight: 400;
+    src: url("../../fonts/ofont.ru_Archangelsk.ttf");
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: 700;
+    src: url("../../fonts/Roboto/Roboto.ttf");
+}
