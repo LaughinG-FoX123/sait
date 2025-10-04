@@ -12,7 +12,7 @@
 
 .event__main-content {
     position: relative;
-
+    padding-bottom: 70px;
 }
 
 .event__img-event {
@@ -65,6 +65,7 @@
 .event__form {
     width: 460px;
     height: auto;
+    margin-right: 32px;
 }
 
 .event__input {
@@ -124,4 +125,71 @@
     font-size: 12px;
     color: var(--white);
     
+}
+
+/* ----------- */
+
+.event__images {
+    width: 788px;
+    height: 456px;
+    position: relative;
+}
+
+.event__images-BGimg {
+    width: 788px;
+    height: 456px;
+    z-index: 1;
+    position: absolute;
+}
+
+.event__yellow-Z {
+    width: 460px;
+    height: 456px;
+    z-index: 2;
+    position: absolute;
+}
+
+.event__blue-Z {
+    width: 460px;
+    height: 456px;
+    z-index: 3;
+    margin-left: 328px;
+    position: absolute;
+}
+
+.event__yellow-Z img {
+    width: 460px;
+    height: 456px;
+    z-index: 2;
+}
+
+.event__blue-Z img {
+    width: 460px;
+    height: 456px;
+    z-index: 3;
+    transform: scaleX(-1);
+    transform: scaleY(-1);
+}
+
+.event__images-consoles {
+    width: 624px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0 80px 164px;
+    z-index: 6;
+    position: absolute;
+}
+
+.event__images-xbox, .event__images-PS5 {
+    width: 296px;
+    height: auto;
+}
+
+.event__gradient-black-yellow {
+    background-image: url(../../assets/img/main_sections/event/event__gradient-black-yellow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 70px;
 }

@@ -1,0 +1,61 @@
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+}
+
+.footer__logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    height: auto;
+}
+
+.footer__logo-1 {
+    width: 296px;
+    height: auto;
+}
+
+.footer__logo-2 {
+    width: 172px;
+    height: auto;
+}
+
+.footer__docs {
+    width: auto;
+    height: auto;
+    align-content: center;
+}
+
+.footer__licens {
+    display: inline-block;
+    margin-right: 32px;
+}
+
+.footer__kof {
+    display: inline-block;
+}
+
+.footer__text {
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--black);
+}
+
+.footer__OOO {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black);
+}
+
+.footer__OOO p {
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--white);
+}
+
